@@ -1,3 +1,4 @@
 *.user
 *.qmlproject
+!dictionaries/
 dictionaries/*
