@@ -51,7 +51,7 @@ ApplicationWindow {
                     (function searchFunc() {
                         var text_for_search = textArea.getText(currentSearchPosition, textArea.length).toLowerCase();
                         var firstFoundPosition = text_for_search.search(patt);
-                        console.log(firstFoundPosition);
+//                        console.log(firstFoundPosition);
                         if (firstFoundPosition === -1 && currentSearchPosition > 0) {
                             currentSearchPosition = 0;
                             searchFunc();
